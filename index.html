@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ysubs</title>
+		<link rel="stylesheet" href="app/darkly.min.css">
+		<link rel="stylesheet" href="app/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body class="no-drag">
+		<div class="wrapper">
+			<div class="container">
+				<div class="row drag">
+					<div class="col-md-6">
+						<h2 class="brand pull-left">ysubs</h2>
+					</div>
+					<div class="col-md-6">
+						<div class = "btn-group pull-right margins">
+							<button id="btn-open-file" type = "button" class= "btn btn-primary no-drag"><span class="fa fa-folder-open"></span></button>
+							<button id="btn-save-file" type = "button" class= "btn btn-success no-drag"><span class="fa fa-save"></span></button>
+							<button id="btn-close-window" type = "button" class= "btn btn-danger no-drag"><span class="fa fa-close"></span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<textarea id="txt-result" class="form-control resultBox"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="app/index.js"></script>
+	<script src="app/lib/xmlparser.js"></script>
+	<script src="app/lib/filemanager.js"></script>
+	<script src="app/lib/ui.js"></script>
+	<script>
+		window.app.ui.init();
+	</script>
+</html>
