@@ -1,6 +1,6 @@
 # ysubs
 
-> utility tool to extract text from youtube subtitles (it should work with html but not tested)
+> utility tool to extract text from youtube timed text xml files (it should work with html but not tested)
 
 <img src="http://i.imgur.com/KnDKXXu.png">
 
